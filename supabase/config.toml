@@ -1,0 +1,25 @@
+project_id = "dssjspakagyerrmtaakm"
+
+[functions.upload-user-ids]
+verify_jwt = false
+
+[functions.login-alert]
+verify_jwt = false
+
+[functions.mfa-enroll-start]
+verify_jwt = true
+
+[functions.mfa-verify-code]
+verify_jwt = true
+
+[functions.mfa-disable]
+verify_jwt = true
+
+[functions.mfa-status]
+verify_jwt = true
+
+[functions.generate-embeddings]
+verify_jwt = false
+
+[functions.allan-core]
+verify_jwt = false
